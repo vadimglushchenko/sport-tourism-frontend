@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Auth } from "aws-amplify";
-import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import React, {useState} from "react";
+import {Auth} from "aws-amplify";
+import {FormGroup, FormControl, ControlLabel} from "react-bootstrap";
 import LoaderButton from "../components/LoaderButton";
-import { useFormFields } from "../libs/hooksLib";
+import {useFormFields} from "../libs/hooksLib";
 import "./Login.css";
 
 export default function Login(props) {
@@ -23,6 +23,7 @@ export default function Login(props) {
 
         try {
             await Auth.signIn(fields.email, fields.password);
+
             props.userHasAuthenticated(true);
             props.history.push("/");
         } catch (e) {

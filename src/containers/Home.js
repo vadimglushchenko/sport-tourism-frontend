@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
+import React, {useEffect, useState} from "react";
+import {ListGroup, ListGroupItem, PageHeader} from "react-bootstrap";
 import "./Home.css";
-import { API } from "aws-amplify";
-import { LinkContainer } from "react-router-bootstrap";
+import {API} from "aws-amplify";
+import {LinkContainer} from "react-router-bootstrap";
 
 export default function Home(props) {
     const [sportTrips, setSportTrips] = useState([]);
@@ -28,25 +28,23 @@ export default function Home(props) {
     }, [props.isAuthenticated]);
 
     function loadSportTrips() {
-        return API.get("sport_tourism", "/getAllSportTrips");
+        return API.get("sport_tourism", "/getSportTrips?isCompleted=false");
     }
 
     function renderSportTripList(sportTrips) {
         return [{}].concat(sportTrips).map((sportTrip, i) =>
             i !== 0 ? (
-                <LinkContainer key={sportTrip.id} to={`/getAllSportTrips/${sportTrip.id}`}>
-                    {/*<ListGroupItem header={sportTrip.content.trim().split("\n")[0]}>*/}
+                <LinkContainer key={sportTrip.id} to={`/sportTrips/${sportTrip.id}`}>
                     <ListGroupItem header={sportTrip[0]}>
-                        {"Location: " + sportTrip.locationName + "\n"}
-                        {"Description: " + sportTrip.tripDescription + "\n" }
-                        {"Trip date: " + sportTrip.tripDate + "\n"}
-                        {"Trip difficulty: " + sportTrip.tripDifficulty + "\n"}
-                        {"Trip type: " + sportTrip.tripType + "\n"}
-                        {"Trip duration: " + sportTrip.tripDuration + "\n"}
-                        {"Max group count: " + sportTrip.maxGroupCount + "\n"}
-                        {"Cost: " + sportTrip.cost + "\n"}
-                        {"Is sport trip finished: " + sportTrip.isFinished + "\n"}
-                        {"Is sport trip removed: " + sportTrip.isRemoved + "\n"}
+                        <p>{"Location: " + sportTrip.locationName}</p>
+                        <p>{"Description: " + sportTrip.tripDescription}</p>
+                        <p> {"Trip date: " + sportTrip.tripDate}</p>
+                        <p>{"Trip difficulty: " + sportTrip.tripDifficulty}</p>
+                        <p>{"Trip type: " + sportTrip.tripType}</p>
+                        <p>{"Trip duration: " + sportTrip.tripDuration}</p>
+                        <p>{"Max group count: " + sportTrip.maxGroupCount}</p>
+                        <p>{"Cost: " + sportTrip.cost}</p>
+                        <p>{"Status: ".concat(sportTrip.isFinished ? "Finished" : "Active")}</p>
                     </ListGroupItem>
                 </LinkContainer>
             ) : (
