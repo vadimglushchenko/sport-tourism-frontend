@@ -44,7 +44,6 @@ export default function Home(props) {
                         <p>{"Trip duration: " + sportTrip.tripDuration}</p>
                         <p>{"Max group count: " + sportTrip.maxGroupCount}</p>
                         <p>{"Cost: " + sportTrip.cost}</p>
-                        <p>{"Status: ".concat(sportTrip.isFinished ? "Finished" : "Active")}</p>
                     </ListGroupItem>
                 </LinkContainer>
             ) : (
