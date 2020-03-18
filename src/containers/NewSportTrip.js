@@ -79,6 +79,7 @@ export default function NewSportTrip(props) {
                         onChange={handleFieldChange}
                         defaultValue="ONE"
                     >
+                        <option/>
                         <option value={'ONE'}>1st category of difficulty</option>
                         <option value={'TWO'}>2 category of difficulty</option>
                         <option value={'THREE'}>3 category of difficulty</option>
@@ -96,6 +97,7 @@ export default function NewSportTrip(props) {
                         onChange={handleFieldChange}
 
                     >
+                        <option/>
                         <option value={'HIKING'}>Hiking</option>
                         <option defaultValue={'BIKE_TRIP./P'} value={'BIKE_TRIP'}>Bike trip</option>
                         <option value={'MOUNTAIN_HIKE'}>Mountain hike</option>

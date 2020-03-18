@@ -7,6 +7,7 @@ import Signup from "./containers/Signup";
 import AppliedRoute from "./components/AppliedRoute";
 import NewSportTrip from "./containers/NewSportTrip";
 import SportTrip from "./containers/SportTrip"
+import NewComment from "./containers/NewComment";
 
 export default function Routes({ appProps }) {
     return (
@@ -16,6 +17,8 @@ export default function Routes({ appProps }) {
             <AppliedRoute path="/signup" exact component={Signup} appProps={appProps} />
             <AppliedRoute path="/addSportTrip" exact component={NewSportTrip} appProps={appProps} />
             <AppliedRoute path="/sportTrips/:id" exact component={SportTrip} appProps={appProps} />
+            <AppliedRoute path="/addSportTripComment/:id" exact component={NewComment} appProps={appProps} />
+
             <Route component={NotFound} />
         </Switch>
     );

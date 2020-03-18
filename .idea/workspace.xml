@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ae1afa-27ae-42ef-92f2-78f2d7d7ce51" name="Default Changelist" comment="Added comment information to sport trip details">
+    <list default="true" id="25ae1afa-27ae-42ef-92f2-78f2d7d7ce51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/NewSportTrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/NewSportTrip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/SportTrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SportTrip.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +57,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -127,7 +136,8 @@
       <workItem from="1584247178574" duration="4059000" />
       <workItem from="1584272711306" duration="618000" />
       <workItem from="1584350923761" duration="3032000" />
-      <workItem from="1584462867968" duration="6936000" />
+      <workItem from="1584462867968" duration="10036000" />
+      <workItem from="1584540809290" duration="13042000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1583664193571</created>
@@ -157,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584523732772</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added comment information to sport trip details">
+      <created>1584526270986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584526270986</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added create comment function">
+      <created>1584552804990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584552804990</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,18 +204,23 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="Added get sport trip info and add sport trip features" />
     <MESSAGE value="Added comment information to sport trip details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment information to sport trip details" />
+    <MESSAGE value="Added create comment function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added create comment function" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="1294" width="800" height="677" key="#ESLint" timestamp="1584527821058">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="588" y="1294" width="800" height="677" key="#ESLint/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584527821058" />
     <state x="688" y="357" width="600" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578384575321">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="688" y="357" width="600" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1578384575321" />
-    <state x="432" y="1165" width="934" height="912" key="CommitChangelistDialog2" timestamp="1584523735590">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state x="484" y="85" width="934" height="912" key="CommitChangelistDialog2" timestamp="1584606181801">
+      <screen x="67" y="0" width="1853" height="1080" />
     </state>
-    <state x="432" y="1165" width="934" height="912" key="CommitChangelistDialog2/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584523735590" />
-    <state x="484" y="85" width="942" height="908" key="CommitChangelistDialog2/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1583664193398" />
+    <state x="432" y="1165" width="934" height="912" key="CommitChangelistDialog2/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584526270924" />
+    <state x="484" y="85" width="942" height="908" key="CommitChangelistDialog2/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584606181801" />
     <state x="720" y="1525" width="934" height="912" key="CommitChangelistDialog2/288.1440.1920.1080/355.0.2205.1440@288.1440.1920.1080" timestamp="1584370062094" />
     <state x="452" y="118" width="1653" height="855" maximized="true" key="DiffContextDialog" timestamp="1584369927767">
       <screen x="355" y="0" width="2205" height="1440" />
@@ -205,38 +234,38 @@
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="800" y="1527" width="377" height="210" key="Github.ShareDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584462958754" />
-    <state width="1807" height="276" key="GridCell.Tab.0.bottom" timestamp="1584465164045">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1584541470024">
+      <screen x="67" y="0" width="1853" height="1080" />
     </state>
     <state width="1807" height="276" key="GridCell.Tab.0.bottom/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584465164045" />
-    <state width="1874" height="354" key="GridCell.Tab.0.bottom/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1583755629487" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584541470024" />
     <state width="1807" height="276" key="GridCell.Tab.0.bottom/288.1440.1920.1080/355.0.2205.1440@288.1440.1920.1080" timestamp="1584378452702" />
     <state width="2514" height="391" key="GridCell.Tab.0.bottom/288.1440.1920.1080/355.0.2205.1440@355.0.2205.1440" timestamp="1583927706921" />
     <state width="1807" height="277" key="GridCell.Tab.0.bottom/355.0.2205.2520@355.0.2205.2520" timestamp="1583505843333" />
     <state width="903" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581444208792" />
-    <state width="1807" height="276" key="GridCell.Tab.0.center" timestamp="1584465164045">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1584541470024">
+      <screen x="67" y="0" width="1853" height="1080" />
     </state>
     <state width="1807" height="276" key="GridCell.Tab.0.center/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584465164045" />
-    <state width="1874" height="354" key="GridCell.Tab.0.center/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1583755629486" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584541470024" />
     <state width="1807" height="276" key="GridCell.Tab.0.center/288.1440.1920.1080/355.0.2205.1440@288.1440.1920.1080" timestamp="1584378452702" />
     <state width="2514" height="391" key="GridCell.Tab.0.center/288.1440.1920.1080/355.0.2205.1440@355.0.2205.1440" timestamp="1583927706921" />
     <state width="1807" height="277" key="GridCell.Tab.0.center/355.0.2205.2520@355.0.2205.2520" timestamp="1583505843333" />
     <state width="903" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581444208792" />
-    <state width="1807" height="276" key="GridCell.Tab.0.left" timestamp="1584465164044">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1584541470023">
+      <screen x="67" y="0" width="1853" height="1080" />
     </state>
     <state width="1807" height="276" key="GridCell.Tab.0.left/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584465164044" />
-    <state width="1874" height="354" key="GridCell.Tab.0.left/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1583755629486" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584541470023" />
     <state width="1807" height="276" key="GridCell.Tab.0.left/288.1440.1920.1080/355.0.2205.1440@288.1440.1920.1080" timestamp="1584378452702" />
     <state width="2514" height="391" key="GridCell.Tab.0.left/288.1440.1920.1080/355.0.2205.1440@355.0.2205.1440" timestamp="1583927706921" />
     <state width="1807" height="277" key="GridCell.Tab.0.left/355.0.2205.2520@355.0.2205.2520" timestamp="1583505843333" />
     <state width="903" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581444208791" />
-    <state width="1807" height="276" key="GridCell.Tab.0.right" timestamp="1584465164045">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1584541470024">
+      <screen x="67" y="0" width="1853" height="1080" />
     </state>
     <state width="1807" height="276" key="GridCell.Tab.0.right/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584465164045" />
-    <state width="1874" height="354" key="GridCell.Tab.0.right/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1583755629487" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584541470024" />
     <state width="1807" height="276" key="GridCell.Tab.0.right/288.1440.1920.1080/355.0.2205.1440@288.1440.1920.1080" timestamp="1584378452702" />
     <state width="2514" height="391" key="GridCell.Tab.0.right/288.1440.1920.1080/355.0.2205.1440@355.0.2205.1440" timestamp="1583927706921" />
     <state width="1807" height="277" key="GridCell.Tab.0.right/355.0.2205.2520@355.0.2205.2520" timestamp="1583505843333" />
@@ -294,18 +323,27 @@
     </state>
     <state x="430" y="1244" key="SettingsEditor/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584465161799" />
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581863540333" />
-    <state x="588" y="1368" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584523737709">
+    <state x="634" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584552807285">
+      <screen x="67" y="0" width="1853" height="1080" />
+    </state>
+    <state x="588" y="1368" width="800" height="528" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584526278291" />
+    <state x="634" y="288" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584552807285" />
+    <state x="603" y="1442" key="com.intellij.ide.util.TipDialog" timestamp="1584541133683">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
-    <state x="588" y="1368" width="800" height="528" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584523737709" />
-    <state x="603" y="1442" key="com.intellij.ide.util.TipDialog" timestamp="1584462919024">
-      <screen x="0" y="1080" width="1920" height="1080" />
-    </state>
-    <state x="603" y="1442" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584462919024" />
+    <state x="603" y="1442" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584541133683" />
     <state x="649" y="362" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584272725932" />
     <state x="891" y="1802" key="com.intellij.ide.util.TipDialog/288.1440.1920.1080/355.0.2205.1440@288.1440.1920.1080" timestamp="1584350966267" />
     <state x="1048" y="483" key="com.intellij.ide.util.TipDialog/288.1440.1920.1080/355.0.2205.1440@355.0.2205.1440" timestamp="1583858401883" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581865706171" />
+    <state x="657" y="793" key="run.anything.popup" timestamp="1584526725582">
+      <screen x="67" y="0" width="1853" height="1080" />
+    </state>
+    <state x="657" y="793" key="run.anything.popup/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1584526725582" />
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1584547694150">
+      <screen x="67" y="0" width="1853" height="1080" />
+    </state>
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584547694150" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

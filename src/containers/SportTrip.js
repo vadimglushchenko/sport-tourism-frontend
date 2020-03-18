@@ -31,8 +31,8 @@ export default function SportTrip(props) {
         return [{}].concat(comments).map((comment, i) =>
             i !== 0 ? (
                 <ListGroupItem header={comment[0]}>
-                    <p>{"Author: " + comment.authorUsername}</p>
-                    <p>{"Comment: " + comment.commentText}</p>
+                    <p>{comment.authorUsername}</p>
+                    <p>{comment.commentText}</p>
                     <p> {"Creation date: " + comment.date}</p>
                 </ListGroupItem>
             ) : (comments.length === 0) ? <p>Nobody left comments on this sport trip </p> : null
@@ -59,6 +59,11 @@ export default function SportTrip(props) {
         <div className="SportTrips">
             <ListGroup>
                 {!isLoading && renderSportTrip(sportTrip)}
+                <LinkContainer key="addComment" to={`/addSportTripComment/${sportTrip.id}`}>
+                    <ListGroupItem>
+                        <h4>Add comment</h4>
+                    </ListGroupItem>
+                </LinkContainer>
                 <LinkContainer key="return" to="/">
                     <ListGroupItem>
                         <h4>Return to main page</h4>
